@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css?family=Barrio|Raleway');
+
+.nav-items {
+  list-style-type: none;
+  padding: 20px 5px; 
+  margin: 10px 5px 10px 5px;
+  background-color: #324a2e; /*dont know what green (dark olive maybe) this is all i know is i can see the nav items*/
+}
+
+a {
+   text-decoration: none 
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Barrio', serif; 
+}
+
+p, a, p1 {
+    font-family: 'Raleway', sans-serif;
+}
+
+.text-align {
+    text-align: center;
+}
+
+.block {
+    display: block;
+}
+
+.pull-left{
+    float: left;
+}
+
+.pull-right{
+    float: right;
+}
+
+.base-color {
+    color: #008175;
+}
+
+.accent-color {
+    color: #603218;
+}
+
+.nav-container {
+    border-bottom: 3px solid #985988;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.logo {
+    display: inline-block;
+    text-decoration: none;
+    color: #112155;
+    padding: 10px;
+    float: left;
+}
+
+a.logo{
+    font-weight: 900;
+    font-family: sans-serif;
+}
+
+.nav-items{
+    margin: 0;
+    text-align: right;
+}
+
+.nav-items .listed-nav_items {
+    display: inline-block;
+}
+
+.nav-items .listed-nav_items a {
+    display: block;
+    padding:15px;
+    color: #985988;/*purple, kinda puce i guess*/
+    font-weight: 300;
+}
+
+.nav-items listed-nav_items:hover {
+    background-color: #AF2C2C; 
+    border: 2px double; 
+    color: #77777a;
+}
+
+/*hero section*/
+.hero{
+    margin-top: 0;
+    height: 250px;
+    background-image: url('../img/window.jpg');
+    background-size: contain;
+    background-position: center;
+    padding-top: 15%;
+    text-align: center;
+    clear: left;
+}
+
+.hero h1{
+    margin-top: -8%;
+    color: #fffff0;
+    font-size: 200px;
+    text-shadow: #000;
+    text-decoration: underline;
+}
+
+/*sidebar sections*/
+aside {
+    box-sizing: border-box;
+    height: 300px;
+    width: 30%;
+    float: left;
+    border: 2px solid #bfb1b1; /*i like the way this red looks*/
+    float: left;
+    clear: right;
+}
+
+.blog-links {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.blog-links li{
+    height: 25%;
+    text-align: center;
+    /*float: right;
+    clear: left;*/
+    
+}
+
+.blog-links li a{
+    color: #BF1B1B;
+    font-family: 'Barrio' serif;
+    font-size: 24px;
+}
+
+.blog-links li:hover{
+    /*background-color: #AF2C2C;*/ /*maroon*/
+    background-image: url(../img/pix.jpeg);
+    border: 2px double #77777a; /*grey*/
+}
+
+/*pretty cool*/
+
+.blog-links li:hover a{
+    color:#fff;
+    font-size: 28px;
+}
+
+main {
+    width: 70%;
+    height: 300px;
+    overflow: auto;
+    padding: 0px 10px;
+    box-sizing: border-box;
+    clear: left;
+}
+
+main h1, h2 {
+    text-align:center;
+}
+    
+main p {
+    line-height: 40px;
+    letter-spacing: 5px;
+    font-size: 18px;
+    text-align: center;
+}
+
+/*footer*/
+footer{
+    height: 100px;
+    background-color:#324a2e;
+    color:#fff;
+    clear: both;
+}
+
+.social-media a{
+    color:#999777; /*gray*/
+}
+
+.social-media a:hover{
+    color: #a65aff; /*lightpurple-lavender*/
+}
+
+.social-media i {
+    margin: 0px 12px;
+}
